@@ -29,6 +29,35 @@ h1, h2, h3, h4, h5, h6, strong{
 
 }
 
+.bn-diario-oficial{
+	position: relative;
+}
+
+.edicoes-mais{
+	position: absolute;
+	list-style-type: none;
+	font-size: 10px;
+	top: 67px;
+	right: 48px;
+	text-align: center;
+}
+.edicoes-mais li{
+	display:block;
+
+}
+.edicoes-mais li:first-child{
+	padding-bottom:3px;
+	margin-bottom:3px;
+	border-bottom:1px solid #fff;;
+}
+.edicoes-mais li span{
+	display:block;
+	font-weight: 700;
+}
+.edicoes-mais a{
+	color: #fff;
+}
+
 
 /*  TESTES DE RESOLUCAOES PADROES */
 
